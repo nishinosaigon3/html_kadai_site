@@ -1,0 +1,170 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #333333;
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.header{
+    position: relative;
+}
+.site-title{
+    font-size:36px;
+    font-weight:bold;
+    color: pink;
+  position: relative;
+  background-image:"img/mainbg.png";
+}
+.site-subtitle{
+font-size: 28px;
+color: pink;
+position: relative;
+}
+/* Global Navigation */
+.btn{
+    display:block;
+    background-color:white;
+    font-size: 20px;
+    width: 240px;
+    color:black
+
+}
+.headerlogoimg{
+width: 15%;
+height:15%;
+
+    margin-left: 120px;
+}
+
+
+.nav-list{
+    display:flex;
+    margin: 0 0 60px;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.nav-item{
+    margin-left: 12px;
+    margin-right: 60px;
+justify-content:flex-end;
+align-item:flex-end;
+
+}
+
+.nav-item>a{
+color:black;
+font-size:1.8rem;
+text-transform:uppercase;
+text-decoration:none;
+}
+
+.header-wrapper{
+    diplay:flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.wrapper1{
+    max-width: 1140px;
+    margin: 0 0 60px;
+    display:flex;
+}
+
+.wrapper2{
+    max-width: 1140px;
+    margin: 0 0 60px;
+    display:flex;
+}
+.news__eyecatch{
+    margin: 0 0 24px;
+}
+
+.news__heading{
+margin: 0 20 16px;
+line-height: 1.75;
+}
+
+
+.news__contents{
+padding: 0 16px;
+}
+
+
+/* ---------------
+about
+------------------- */
+
+.profile-wrapper{
+    width: 660px;
+    margin: auto;
+}
+.profile__title{
+    margin: 60 0 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:#ffd61a
+}
+.profile__title2{
+    margin: 60 0 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:black 
+}
+.profile__text1{
+    margin: 60 0 60px;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    color:black ;
+    text-align: center;
+    line-height: 1.75;
+}
+.profile__text2{
+    margin: 60 0 60px;
+    padding: 24px 0;
+    font-size: 1.5rem;
+    color:black ;
+    text-align: center;
+    line-height: 1.75;
+}
+    /* ---------------
+Course
+------------------- */
+.coursetitle{
+    font-weight:bold;
+    font-size:2.4rem;
+}
+
+.Courseimg2{
+float: right;
+
+}
+
+
+.Access{
+    background-color: rgba(245, 240, 240, 0.87);
+}
+.name{
+    display:flex;
+    margin-left:50px;
+}
+.kana{
+    display:flex;
+    margin-left:50px;
+}
+.email{
+    display:flex;
+    margin-left:50px;
+}
+.kikkake{
+    display:block;
+}
